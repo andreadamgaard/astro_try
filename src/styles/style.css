@@ -1,0 +1,13 @@
+/*Skriv css her som alle vil have glæde af i teamet og ting der skaæ genbruges*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: palevioletred;
+}
+
+p {
+  color: white;
+}

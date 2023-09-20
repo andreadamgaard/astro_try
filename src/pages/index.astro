@@ -1,5 +1,8 @@
 ---
-
+//importer css style sådan her - komprimere koden når vi går live
+import "../styles/style.css"
+import Card from "../components/Card.astro";
+import Navigation from "../components/Navigation.astro"
 ---
 
 <html lang="en">
@@ -11,6 +14,14 @@
 		<title>Astro</title>
 	</head>
 	<body>
+		<Navigation />
 		<h1>Astro</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum neque sequi, molestias voluptatum obcaecati quos non cumque eaque optio reprehenderit nesciunt iste ab rerum error, quaerat, aut maiores ex eum!</p>
+		<main>
+			<Card header="hej verden"> 
+				<img src="/billede1.png" alt="pic">
+				<button>klik</button>
+			</Card>
+			</main>
 	</body>
 </html>
