@@ -3,6 +3,7 @@
 import "../styles/style.css"
 import Card from "../components/Card.astro";
 import Navigation from "../components/Navigation.astro"
+import Button from "../components/Button.astro";
 ---
 
 <html lang="en">
@@ -16,12 +17,14 @@ import Navigation from "../components/Navigation.astro"
 	<body>
 		<Navigation />
 		<h1>Astro</h1>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum neque sequi, molestias voluptatum obcaecati quos non cumque eaque optio reprehenderit nesciunt iste ab rerum error, quaerat, aut maiores ex eum!</p>
 		<main>
-			<Card header="hej verden"> 
+			<Button variant="primary" size="small">TEXT</Button>
+			<Button variant="secondary" size="medium">TEXT</Button>
+			<Button variant="secondary" size="large">TEXT</Button>
+			<!-- <Card header="hej verden"> 
 				<img src="/billede1.png" alt="pic">
 				<button>klik</button>
-			</Card>
+			</Card> -->
 			</main>
 	</body>
 </html>
